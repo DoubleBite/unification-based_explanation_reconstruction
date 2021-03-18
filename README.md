@@ -6,6 +6,9 @@ This is repository reproduces the EACL 2021 paper [Unification-based Reconstruct
 The data (`data/`, `lemmatization-en.txt`) and the evaluation code (`evaluate.py`) are taken from its original [repository](https://github.com/ai-systems/unification_reconstruction_explanations), while I rewrite the experiment flow (`experiment.py`) and the code for the knowledge bases (`lib/knowledge_base.py`) so that they can be adapted to other tasks more intuitively.
 
 
+![](https://i.imgur.com/k4GMLAM.png)
+
+
 #### Run the experiment
 
 This will generate a txt file `prediction.txt` that ranks the relevant facts for each question in the dev set. 
